@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.1.6\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\projekt_pa_rs.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\projekt_pa_rs.dir/objects.a @CMakeFiles\projekt_pa_rs.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\projekt_pa_rs.dir/objects.a -Wl,--no-whole-archive  -o projekt_pa_rs.exe -Wl,--out-implib,libprojekt_pa_rs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\projekt_pa_rs.dir\linklibs.rsp
