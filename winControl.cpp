@@ -5,6 +5,7 @@
 const int ID_BUTTON_1 = 101;
 const int ID_INPUT_1 = 201;
 const int ID_INPUT_2 = 202;
+const int ID_INPUT_3 = 203;
 
 void openGL_launch(HWND hwnd)
     {
@@ -30,7 +31,7 @@ void openGL_launch(HWND hwnd)
 LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     switch(msg) {
         case WM_CREATE:
-            CreateUI(hwnd, ID_BUTTON_1, ID_INPUT_1, ID_INPUT_2);
+            CreateUI(hwnd, ID_BUTTON_1, ID_INPUT_1, ID_INPUT_2, ID_INPUT_3);
             break;
         case WM_CLOSE:
             DestroyWindow(hwnd);

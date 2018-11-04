@@ -1,5 +1,4 @@
 #include "openGLmain.h"
-#include <math.h>
 
 void framebuffer_size_callback (GLFWwindow* window, int width, int height)
 {
@@ -15,13 +14,12 @@ void processInput (GLFWwindow* window)
 
 int main_ogl(unsigned int WIDTH, unsigned int HEIGHT)
 {
-    const char *vertex_path = "..\\shader.vert";
-    const char *fragment_path = "..\\fragment.frag";
-    std::string vertString = loadShader(vertex_path);
-    std::string fragString = loadShader(fragment_path);
-    const char *vertexShaderSource = vertString.c_str();
-    const char *fragmentShaderSource = fragString.c_str();
-
+//    const char *vertex_path = "..\\shader.vert";
+//    const char *fragment_path = "..\\fragment.frag";
+//    std::string vertString = loadShader(vertex_path);
+//    std::string fragString = loadShader(fragment_path);
+//    const char *vertexShaderSource = vertString.c_str();
+//    const char *fragmentShaderSource = fragString.c_str();
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,3);
@@ -44,15 +42,14 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT)
         return -1;
     }
 
-    unsigned int shaderProgram_final = shaderProgram(vertexShaderSource, fragmentShaderSource);
+    //unsigned int shaderProgram_final = shaderProgram(vertexShaderSource, fragmentShaderSource);
+
+    Shader myShader("..\\shader.vert", "..\\fragment.frag");
 
     float vertices[] = {
-            -0.6f, 0.6f, 0.0f, 1.0f, 0.0f, 0.0f,
-            -0.6f, 0.4f, 0.0f, 0.0f, 1.0f, 0.0f,
-            -0.4f, 0.4f, 0.0f, 0.0f, 0.0f, 1.0f,
-            -0.6f, 0.0f, 0.0f,
-            -0.4f, 0.0f, 0.0f,
-            -0.6f, -0.2f, 0.0f
+            0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,
+            -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,
+            0.0f, .5f, 0.0f, 0.0f, 0.0f, 1.0f,
     };
 
     unsigned int indices[] = {
@@ -60,69 +57,44 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT)
             1, 2, 3
     };
 
-    unsigned int VBO, VAO, EBO;
-
+    unsigned int VBO, VAO;
     glGenVertexArrays(1,&VAO);
     glGenBuffers(1, &VBO);
-
-    glGenBuffers(1, &EBO);
-
+    //bind vertex array set buffers
     glBindVertexArray(VAO);
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    //position attribute
     glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,6 * sizeof(float),(void*)0);
     glEnableVertexAttribArray(0);
+    //color attribute
     glVertexAttribPointer(1,3,GL_FLOAT,GL_FALSE,6 * sizeof(float),(void*)(3* sizeof(float)));
     glEnableVertexAttribArray(1);
-//    glBindVertexArray(VAOs[1]);
-//
-//    glBindBuffer(GL_ARRAY_BUFFER, VBOs[1]);
-//    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-//    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,3 * sizeof(float),(void*)0);
-//    glEnableVertexAttribArray(0);
-
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
-
-
-    glBindBuffer(GL_ARRAY_BUFFER,0);
+    //unbind array
     glBindVertexArray(0);
-
-
-
 
     while(!glfwWindowShouldClose(window))
     {
+        //input
         processInput(window);
 
+        //clear color buffer
         glClearColor(0.2f,0.3f,0.3f,1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        //
-        float timeValue=glfwGetTime();
-        float greenValue = (sin(timeValue)/2.0f)+0.5f;
-        int vertexColorLocation = glGetUniformLocation(shaderProgram_final, "ourColor");
-
-        //
-
-        glUseProgram(shaderProgram_final);
-        glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
-
+        //activating shader and drawing triangles
+        myShader.use();
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES,0,3);
-        //glBindVertexArray(VAO);
-        //glDrawArrays(GL_TRIANGLES,3,3);
-        //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glDrawArrays(GL_TRIANGLES, 0, 3);
 
+        //swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
 
     glDeleteVertexArrays(1,&VAO);
     glDeleteBuffers(1, &VBO);
-    glDeleteBuffers(1, &EBO);
     glfwTerminate();
     return 0;
 }

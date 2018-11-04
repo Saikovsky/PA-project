@@ -89,8 +89,6 @@ C:/Programowanie/projekt_pa_rs/winControl.h
 C:/Programowanie/projekt_pa_rs/openGLmain.cpp
 openGLmain.h
 C:/Programowanie/projekt_pa_rs/openGLmain.h
-math.h
--
 
 C:/Programowanie/projekt_pa_rs/openGLmain.h
 glad/glad.h
@@ -101,27 +99,19 @@ shader_loader.h
 C:/Programowanie/projekt_pa_rs/shader_loader.h
 iostream
 -
-string
--
 
 C:/Programowanie/projekt_pa_rs/shader_loader.cpp
-shader_loader.h
-C:/Programowanie/projekt_pa_rs/shader_loader.h
 
 C:/Programowanie/projekt_pa_rs/shader_loader.h
 glad/glad.h
 -
-GLFW/glfw3.h
+string
 -
 fstream
 -
-string
+sstream
 -
 iostream
--
-vector
--
-algorithm
 -
 
 C:/Programowanie/projekt_pa_rs/winControl.cpp

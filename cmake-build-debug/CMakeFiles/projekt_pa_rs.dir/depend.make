@@ -11,11 +11,7 @@ CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj: ../openGLmain.cpp
 CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj: ../openGLmain.h
 CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj: ../shader_loader.h
 
-CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj: ../glad/include/KHR/khrplatform.h
-CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj: ../glad/include/glad/glad.h
-CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj: ../glfw-3.2.1/include/GLFW/glfw3.h
 CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj: ../shader_loader.cpp
-CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj: ../shader_loader.h
 
 CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj: ../glad/include/KHR/khrplatform.h
 CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj: ../glad/include/glad/glad.h
