@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Programowanie/projekt_pa_rs/main.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/main.cpp.obj"
   "C:/Programowanie/projekt_pa_rs/openGLmain.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj"
   "C:/Programowanie/projekt_pa_rs/shader_loader.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.obj"
+  "C:/Programowanie/projekt_pa_rs/stb_image.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/stb_image.cpp.obj"
   "C:/Programowanie/projekt_pa_rs/winControl.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj"
   "C:/Programowanie/projekt_pa_rs/winUI.cpp" "C:/Programowanie/projekt_pa_rs/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/winUI.cpp.obj"
   )

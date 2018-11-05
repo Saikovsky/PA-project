@@ -3,7 +3,8 @@ project(projekt_pa_rs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(projekt_pa_rs main.cpp winUI.h winUI.cpp shader_loader.h shader_loader.cpp openGLmain.cpp openGLmain.h winControl.cpp winControl.h fragment.frag shader.vert)
+add_executable(projekt_pa_rs main.cpp winUI.h winUI.cpp shader_loader.h shader_loader.cpp openGLmain.cpp openGLmain.h winControl.cpp winControl.h fragment.frag shader.vert
+        stb_image.cpp stb_image.h)
 
 # glad
 set(GLAD_DIR "${CMAKE_SOURCE_DIR}/glad")

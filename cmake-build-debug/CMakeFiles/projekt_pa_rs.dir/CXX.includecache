@@ -99,6 +99,8 @@ shader_loader.h
 C:/Programowanie/projekt_pa_rs/shader_loader.h
 iostream
 -
+stb_image.h
+C:/Programowanie/projekt_pa_rs/stb_image.h
 
 C:/Programowanie/projekt_pa_rs/shader_loader.cpp
 
@@ -112,6 +114,40 @@ fstream
 sstream
 -
 iostream
+-
+
+C:/Programowanie/projekt_pa_rs/stb_image.cpp
+stb_image.h
+C:/Programowanie/projekt_pa_rs/stb_image.h
+
+C:/Programowanie/projekt_pa_rs/stb_image.h
+stb_image.h
+C:/Programowanie/projekt_pa_rs/stb_image.h
+stdio.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
 -
 
 C:/Programowanie/projekt_pa_rs/winControl.cpp

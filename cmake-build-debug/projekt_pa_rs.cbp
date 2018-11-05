@@ -324,6 +324,12 @@
 		<Unit filename="C:/Programowanie/projekt_pa_rs/shader_loader.h">
 			<Option target="projekt_pa_rs"/>
 		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/stb_image.cpp">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/stb_image.h">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
 		<Unit filename="C:/Programowanie/projekt_pa_rs/winControl.cpp">
 			<Option target="projekt_pa_rs"/>
 		</Unit>

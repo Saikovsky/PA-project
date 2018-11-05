@@ -315,6 +315,33 @@ shader_loader.cpp.s:
 	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/shader_loader.cpp.s
 .PHONY : shader_loader.cpp.s
 
+stb_image.obj: stb_image.cpp.obj
+
+.PHONY : stb_image.obj
+
+# target to build an object file
+stb_image.cpp.obj:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/stb_image.cpp.obj
+.PHONY : stb_image.cpp.obj
+
+stb_image.i: stb_image.cpp.i
+
+.PHONY : stb_image.i
+
+# target to preprocess a source file
+stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/stb_image.cpp.i
+.PHONY : stb_image.cpp.i
+
+stb_image.s: stb_image.cpp.s
+
+.PHONY : stb_image.s
+
+# target to generate assembly for a file
+stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/stb_image.cpp.s
+.PHONY : stb_image.cpp.s
+
 winControl.obj: winControl.cpp.obj
 
 .PHONY : winControl.obj
@@ -397,6 +424,9 @@ help:
 	@echo ... shader_loader.obj
 	@echo ... shader_loader.i
 	@echo ... shader_loader.s
+	@echo ... stb_image.obj
+	@echo ... stb_image.i
+	@echo ... stb_image.s
 	@echo ... winControl.obj
 	@echo ... winControl.i
 	@echo ... winControl.s
