@@ -28,7 +28,7 @@ void openGL_launch(HWND hwnd)
             MessageBox(hwnd, "Could not get first number!", "Error", MB_OK | MB_ICONERROR);
             //return 0;
         }
-    main_ogl(tempA,tempB,tempC);
+    //main_ogl(tempA,tempB,tempC);
 
     //return 0;
 }
@@ -47,7 +47,8 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
         case WM_COMMAND:
             switch (wParam) {
                 case ID_BUTTON_1:
-                    openGL_launch(hwnd);
+                    main_ogl(800,600,6);
+                    //openGL_launch(hwnd);
                     //std::string s = std::to_string(multiply(hwnd));
                     //MessageBox(hwnd,s.c_str(),"XD",MB_ICONEXCLAMATION);
                     break;

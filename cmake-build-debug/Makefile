@@ -207,6 +207,33 @@ glfw/fast:
 	$(MAKE) -f glfw-3.2.1\src\CMakeFiles\glfw.dir\build.make glfw-3.2.1/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
+dijkstra_algorithm.obj: dijkstra_algorithm.cpp.obj
+
+.PHONY : dijkstra_algorithm.obj
+
+# target to build an object file
+dijkstra_algorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/dijkstra_algorithm.cpp.obj
+.PHONY : dijkstra_algorithm.cpp.obj
+
+dijkstra_algorithm.i: dijkstra_algorithm.cpp.i
+
+.PHONY : dijkstra_algorithm.i
+
+# target to preprocess a source file
+dijkstra_algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/dijkstra_algorithm.cpp.i
+.PHONY : dijkstra_algorithm.cpp.i
+
+dijkstra_algorithm.s: dijkstra_algorithm.cpp.s
+
+.PHONY : dijkstra_algorithm.s
+
+# target to generate assembly for a file
+dijkstra_algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/dijkstra_algorithm.cpp.s
+.PHONY : dijkstra_algorithm.cpp.s
+
 glad/src/glad.obj: glad/src/glad.c.obj
 
 .PHONY : glad/src/glad.obj
@@ -412,6 +439,9 @@ help:
 	@echo ... install/strip
 	@echo ... uninstall
 	@echo ... glfw
+	@echo ... dijkstra_algorithm.obj
+	@echo ... dijkstra_algorithm.i
+	@echo ... dijkstra_algorithm.s
 	@echo ... glad/src/glad.obj
 	@echo ... glad/src/glad.i
 	@echo ... glad/src/glad.s

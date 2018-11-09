@@ -66,7 +66,7 @@ CMakeFiles/projekt_pa_rs.dir/all: CMakeFiles/glad.dir/all
 CMakeFiles/projekt_pa_rs.dir/all: glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/depend
 	$(MAKE) -f CMakeFiles\projekt_pa_rs.dir\build.make CMakeFiles/projekt_pa_rs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Programowanie\projekt_pa_rs\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22,23,24 "Built target projekt_pa_rs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Programowanie\projekt_pa_rs\cmake-build-debug\CMakeFiles --progress-num=18,19,20,21,22,23,24,25 "Built target projekt_pa_rs"
 .PHONY : CMakeFiles/projekt_pa_rs.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/projekt_pa_rs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/projekt_pa_rs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programowanie\projekt_pa_rs\cmake-build-debug\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programowanie\projekt_pa_rs\cmake-build-debug\CMakeFiles 25
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/projekt_pa_rs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programowanie\projekt_pa_rs\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/projekt_pa_rs.dir/rule
