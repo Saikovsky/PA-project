@@ -2,5 +2,16 @@
 -- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR) 
 -- Using Win32 for window creation
 -- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    gl.hpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: projekt_pa_rs
+CMake Error: Cannot determine link language for target "projekt_pa_rs".
 -- Generating done
 -- Build files have been written to: C:/Programowanie/projekt_pa_rs/cmake-build-debug

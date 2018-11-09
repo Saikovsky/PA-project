@@ -306,6 +306,15 @@
 		<Unit filename="C:/Programowanie/projekt_pa_rs/glfw-3.2.1/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/glm/glm.hpp">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/glm/gtc/matrix_transform.hpp">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/glm/gtc/type_ptr.hpp">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
 		<Unit filename="C:/Programowanie/projekt_pa_rs/main.cpp">
 			<Option target="projekt_pa_rs"/>
 		</Unit>

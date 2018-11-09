@@ -10,7 +10,7 @@ const int ID_INPUT_3 = 203;
 void openGL_launch(HWND hwnd)
     {
     WINBOOL bSuccess;
-    int tempA, tempB;
+    int tempA, tempB, tempC;
 
     tempA = GetDlgItemInt(hwnd, ID_INPUT_1, &bSuccess, FALSE);
     if (bSuccess == FALSE) {
@@ -23,7 +23,12 @@ void openGL_launch(HWND hwnd)
         MessageBox(hwnd, "Could not get second number!", "Error", MB_OK | MB_ICONERROR);
         //return 0;
     }
-    main_ogl(tempA,tempB);
+    tempC = GetDlgItemInt(hwnd, ID_INPUT_3, &bSuccess, FALSE);
+        if (bSuccess == FALSE) {
+            MessageBox(hwnd, "Could not get first number!", "Error", MB_OK | MB_ICONERROR);
+            //return 0;
+        }
+    main_ogl(tempA,tempB,tempC);
 
     //return 0;
 }
