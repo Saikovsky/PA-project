@@ -74,12 +74,12 @@ void shortestPath(std::vector<std::pair<int,int> > adj[], int V, int src)
 }
 
 // Driver program to test methods of graph class
-int shortest_path(int source, int dest, int distance, int z){
+int shortest_path(int source, int dnode, int distance, int z){
     std::vector<iPair> adj[z];
 
     // making above shown graph
     for (int i = 0; i<z; i++) {
-        addEdge(adj, source, i, distance);
+        addEdge(adj, source, dnode, distance);
     }
     shortestPath(adj, z, 0);
 
