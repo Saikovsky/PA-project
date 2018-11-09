@@ -14,6 +14,7 @@
 #include "stb_image.h"
 #include <cstdlib>
 #include <ctime>
+#include <vector>
 
 int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS);
 

@@ -132,7 +132,7 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS)
     };
 
     unsigned int size = ELEMENTS;
-    srand(glfwGetTime());
+    srand(time(NULL));
     glm::vec3 * cubePositions = new glm::vec3 [size];
     for (unsigned int i = 0; i<ELEMENTS; i++)
     {
@@ -140,14 +140,31 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS)
         float y = (rand()%20) + (-10);
         float z = (rand()%20) + (-10);
         x=x/10; y=y/10; z=z/10;
-        std::cout<<x<<" "<<y<<" "<<z<<std::endl;
+      //  std::cout<<x<<" "<<y<<" "<<z<<std::endl;
         cubePositions[i] = glm::vec3(x,y,0.0f);
     }
-    float vertices1[]=
-            {
-                    0.0f, 0.0f, 0.0f,
-                    0.5f, 1.0f, 0.0f
-            };
+//    float vertices1[]=
+//            {
+//                    0.0f, 0.0f, 0.0f,
+//                    0.5f, 1.0f, 0.0f,
+//            };
+        float vertices1[6];
+    for (int i =0; i<6; i++)
+    {
+        float a = ((rand()%18)+(-9));
+        a = a/10;
+        if((i+1)%3==0)
+        {
+
+            vertices1[i]=0.0f;
+        } else{
+
+            vertices1[i] = a;
+        }
+        std::cout<<vertices1[i]<<std::endl;
+
+    }
+
 
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1,&VAO);
@@ -158,6 +175,7 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS)
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices1), vertices1, GL_STATIC_DRAW);
+
 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
@@ -231,9 +249,10 @@ int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS)
             //glLineWidth(10.0f);
             glPointSize(10.0f);
             //glDrawArrays(GL_LINES,0,2);
-            glDrawArrays(GL_POINTS,0,1);
-          //  glDrawArrays(GL_LINES,0, 2);
+            glDrawArrays(GL_POINTS,0,3);
+           // glDrawArrays(GL_LINES,0,3);
         }
+
         //swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
