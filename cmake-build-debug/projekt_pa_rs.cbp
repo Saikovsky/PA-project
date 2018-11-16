@@ -237,12 +237,6 @@
 		<Unit filename="C:/Programowanie/projekt_pa_rs/cmake-build-debug/glfw-3.2.1/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Programowanie/projekt_pa_rs/dijkstra_algorithm.cpp">
-			<Option target="projekt_pa_rs"/>
-		</Unit>
-		<Unit filename="C:/Programowanie/projekt_pa_rs/dijkstra_algorithm.h">
-			<Option target="projekt_pa_rs"/>
-		</Unit>
 		<Unit filename="C:/Programowanie/projekt_pa_rs/fragment.frag">
 			<Option target="projekt_pa_rs"/>
 		</Unit>
@@ -328,6 +322,12 @@
 			<Option target="projekt_pa_rs"/>
 		</Unit>
 		<Unit filename="C:/Programowanie/projekt_pa_rs/openGLmain.h">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/path_algorithm.cpp">
+			<Option target="projekt_pa_rs"/>
+		</Unit>
+		<Unit filename="C:/Programowanie/projekt_pa_rs/path_algorithm.h">
 			<Option target="projekt_pa_rs"/>
 		</Unit>
 		<Unit filename="C:/Programowanie/projekt_pa_rs/shader.vert">

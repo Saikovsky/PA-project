@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj"
   "CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj"
   "CMakeFiles/projekt_pa_rs.dir/stb_image.cpp.obj"
-  "CMakeFiles/projekt_pa_rs.dir/dijkstra_algorithm.cpp.obj"
+  "CMakeFiles/projekt_pa_rs.dir/path_algorithm.cpp.obj"
   "projekt_pa_rs.pdb"
   "projekt_pa_rs.exe"
   "projekt_pa_rs.exe.manifest"

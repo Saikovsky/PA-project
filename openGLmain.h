@@ -17,7 +17,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
-#include "dijkstra_algorithm.h"
+#include "path_algorithm.h"
 
 int main_ogl(unsigned int WIDTH, unsigned int HEIGHT, unsigned int ELEMENTS);
 

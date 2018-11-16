@@ -74,16 +74,6 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Programowanie/projekt_pa_rs/dijkstra_algorithm.cpp
-vector
--
-functional
--
-queue
--
-
-C:/Programowanie/projekt_pa_rs/dijkstra_algorithm.h
-
 C:/Programowanie/projekt_pa_rs/glm/./detail/setup.hpp
 cassert
 -
@@ -1523,8 +1513,22 @@ cmath
 -
 algorithm
 -
-dijkstra_algorithm.h
-C:/Programowanie/projekt_pa_rs/dijkstra_algorithm.h
+path_algorithm.h
+C:/Programowanie/projekt_pa_rs/path_algorithm.h
+
+C:/Programowanie/projekt_pa_rs/path_algorithm.cpp
+path_algorithm.h
+C:/Programowanie/projekt_pa_rs/path_algorithm.h
+
+C:/Programowanie/projekt_pa_rs/path_algorithm.h
+vector
+-
+algorithm
+-
+cmath
+-
+iostream
+-
 
 C:/Programowanie/projekt_pa_rs/shader_loader.cpp
 

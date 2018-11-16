@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="projekt_pa_rs" targetName="glfw" />
-      <config projectName="projekt_pa_rs" targetName="glad" />
-      <config projectName="projekt_pa_rs" targetName="projekt_pa_rs" />
       <config projectName="projekt_pa_rs" targetName="uninstall" />
+      <config projectName="projekt_pa_rs" targetName="glad" />
+      <config projectName="projekt_pa_rs" targetName="glfw" />
+      <config projectName="projekt_pa_rs" targetName="projekt_pa_rs" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -16,13 +16,26 @@
   <component name="ChangeListManager">
     <list default="true" id="fe547a06-6524-4fc4-935b-7803d5efe3fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/openGLmain.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projekt_pa_rs.dir/winControl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/projekt_pa_rs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projekt_pa_rs.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/projekt_pa_rs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projekt_pa_rs.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dijkstra_algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dijkstra_algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dijkstra_algorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/path_algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dijkstra_algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/path_algorithm.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openGLmain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/openGLmain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openGLmain.h" beforeDir="false" afterPath="$PROJECT_DIR$/openGLmain.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/winControl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/winUI.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,20 +48,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="95" selection-start-line="6" selection-start-column="95" selection-end-line="6" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="openGLmain.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/openGLmain.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="-72">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -62,23 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dijkstra_algorithm.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dijkstra_algorithm.cpp">
+      <file leaf-file-name="path_algorithm.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path_algorithm.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-              <folding>
-                <element signature="e#75#92#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-173">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dijkstra_algorithm.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dijkstra_algorithm.h">
+      <file leaf-file-name="path_algorithm.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/path_algorithm.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="e#129#146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,11 +99,8 @@
       <file leaf-file-name="openGLmain.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openGLmain.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="e#76#98#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -107,8 +108,8 @@
       <file leaf-file-name="winControl.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winControl.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="166">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -121,6 +122,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="winUI.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/winUI.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -139,6 +149,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>hwndParent</find>
+      <find>:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,7 +165,6 @@
       <list>
         <option value="$PROJECT_DIR$/winapi.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/winUI.cpp" />
         <option value="$PROJECT_DIR$/shader_loader.cpp" />
         <option value="$PROJECT_DIR$/winUI.h" />
         <option value="$PROJECT_DIR$/winControl.h" />
@@ -168,8 +178,11 @@
         <option value="$PROJECT_DIR$/fragment.frag" />
         <option value="$PROJECT_DIR$/shader.vert" />
         <option value="$PROJECT_DIR$/dijkstra_algorithm.cpp" />
-        <option value="$PROJECT_DIR$/openGLmain.cpp" />
+        <option value="$PROJECT_DIR$/path_algorithm.h" />
+        <option value="$PROJECT_DIR$/path_algorithm.cpp" />
         <option value="$PROJECT_DIR$/winControl.cpp" />
+        <option value="$PROJECT_DIR$/winUI.cpp" />
+        <option value="$PROJECT_DIR$/openGLmain.cpp" />
       </list>
     </option>
   </component>
@@ -193,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +218,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +270,9 @@
       <workItem from="1541451405384" duration="3661000" />
       <workItem from="1541717004372" duration="16599000" />
       <workItem from="1541733721558" duration="21183000" />
-      <workItem from="1541802747995" duration="229000" />
+      <workItem from="1541802747995" duration="5992000" />
+      <workItem from="1542031958086" duration="1203000" />
+      <workItem from="1542306266136" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="Added empty input #3&#10;Shader_loader is now rewritten in class-style (only in .h file, need to fill .cpp file)">
       <created>1541373532771</created>
@@ -287,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541777044519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inputs again available, removed trash code.">
+      <created>1541803098533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541803098534</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79292000" />
+    <option name="totallyTimeSpent" value="90367000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -310,12 +332,12 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.30068967" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49934897" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49934897" visible="true" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -336,7 +358,8 @@
     <MESSAGE value="Added textures to rectangle, pointless but for learning purposes" />
     <MESSAGE value="Added n-number of dots" />
     <MESSAGE value="Nodes(not set, randomly) are connecting with paths." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nodes(not set, randomly) are connecting with paths." />
+    <MESSAGE value="Inputs again available, removed trash code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inputs again available, removed trash code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,16 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-680">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#675#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winUI.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="119" selection-start-line="14" selection-start-column="119" selection-end-line="14" selection-end-column="119" />
         </state>
       </provider>
     </entry>
@@ -608,41 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winUI.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winControl.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openGLmain.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#76#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dijkstra_algorithm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shader.vert">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -653,30 +635,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dijkstra_algorithm.cpp">
+    <entry file="file://$PROJECT_DIR$/path_algorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        <state relative-caret-position="-173">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shader.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openGLmain.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/path_algorithm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <element signature="e#75#92#0" expanded="true" />
+            <element signature="e#129#146#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winUI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/winControl.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="166">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/winUI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/openGLmain.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="-72">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
     </entry>
