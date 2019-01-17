@@ -29,15 +29,31 @@ void openGL_launch(HWND hwnd)
             //return 0;
         }
         if(bSuccess == true)
-            main_ogl(tempA,tempB,tempC);
+        {
+            int a = main_ogl(tempA,tempB,tempC);
+            char buffer[0xff];
+            sprintf(buffer, "Your secret code is: %d\n", a);
+
+            MessageBoxA(NULL, buffer, "Number", MB_OK);
+        }
+
 
     //return 0;
 }
 
 LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
+    static bool online = false;
     switch(msg) {
+        case WM_KEYDOWN:
+            switch(wParam)
+            {
+                default:
+                    PostQuitMessage(0);
+            }
+            break;
         case WM_CREATE:
             CreateUI(hwnd, ID_BUTTON_1, ID_INPUT_1, ID_INPUT_2, ID_INPUT_3);
+            //main_ogl(800,600,333);
             break;
         case WM_CLOSE:
             DestroyWindow(hwnd);
@@ -48,8 +64,13 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
         case WM_COMMAND:
             switch (wParam) {
                 case ID_BUTTON_1:
-                    //main_ogl(800,600,9);
-                    openGL_launch(hwnd);
+                    if(!online)
+                    {
+                        online = true;
+                        openGL_launch(hwnd);
+                        DestroyWindow(hwnd);
+                    }
+
                     //std::string s = std::to_string(multiply(hwnd));
                     //MessageBox(hwnd,s.c_str(),"XD",MB_ICONEXCLAMATION);
                     break;
